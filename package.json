@@ -1,0 +1,21 @@
+{
+  "name": "simple-node-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --watchAll",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "matheuscarvalho95",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nvm": "^0.0.4",
+    "supertest": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
